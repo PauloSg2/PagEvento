@@ -1,0 +1,53 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    background: linear-gradient(200deg, #f9fd00, #4b007e);
+    color: #333;
+    text-align: center;
+}
+
+header {
+    background-color: #ffffffaa;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+h1 {
+    color: #ffee00;
+    font-size: 2.2em;
+    animation: glow 1.8s infinite alternate;
+}
+
+@keyframes glow {
+    from {
+        text-shadow: 0 0 20px #002fff, 0 0 20px #ff1500;
+    }
+
+    to {
+        text-shadow: 0 0 20px #00ff2a, 0 0 30px #8400ff;
+    }
+}
+
+section {
+    margin: 20px auto;
+    padding: 10px;
+    max-width: 600px;
+    background: #ffffffaa;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+button {
+    background-color: #ff6f61;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.5s;
+}
+
+button:hover {
+    background-color: #e55b4a;
+}
